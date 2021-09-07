@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-weight: 400;
+  font-size: 19px;
+  color: #57585c;
+}
+
+.row{
+  width: 400px;
+  height:750px;
+  padding: 20px;
+ /* background:#d3d5de*/
+ background-position: center ;
+ background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("img/background.jpg");
+  margin: 0 auto;
+}
+.no-repeat{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: #fff;
+  font-weight:600;
+  font-size: 300%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 3px double #fff;
+  margin-bottom: 30px;
+}
+.input_field{
+  width: 95%;
+  display: flex;
+  margin: 0 2.5% 30px 2.5%;
+}
+.icon{
+  background:#6084fc ;
+  width: 60px;
+  padding: 15px 0px;
+  text-align: center;
+}
+.icon i{
+  color: #fff;
+  font-size: 150%;
+  text-align: center;
+  
+}
+.input_field input,select{
+  padding: 0 5px;
+  font-weight: 600;
+  width: 80%;
+  outline: none;
+  border: 0;
+  background: #fff;
+}
+a{
+  text-decoration: none;
+  padding: 15px 20px;
+  color: #fff;
+  background: #56d156;
+  float: right;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight:500;
+  margin-right: 3%;
+  box-shadow: 1px 1px 12px #56d156;
+} 
+a:hover{
+  background: #febd0f;
+  color: #fff;
+  box-shadow: 1px 1px 12px #febd0f;
+}
+.info_field{
+  clear: both;
+  margin-bottom:30px;
+  width: 100%;
+}
+
+.info{
+  display:inline-block;
+  width: 40%;
+  background: #ff5252;
+  color: #fff;
+  padding: 15px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 0;
+}
+
+.amount{
+  
+}
+.amount input{
+  outline: 0;
+  border: 0;
+  background: #4d4c4c;
+  color: #fff;
+  padding: 15px 6px;
+  font-weight: 600;
+  width: 58%;
+  position: relative;
+  letter-spacing: 1.5px;
+  left: -10px;
+}
