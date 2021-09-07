@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cs/style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="row no-repeat">
+      <h1>loan calculator</h1>
+      <div class="input_field">
+        <div class="icon">
+          <i class="fas fa-dollar-sign"></i>
+        </div>
+        <input type="number" name="loan" id="loan" value="" placeholder="Enter a mount" />
+      </div>
+      <div class="input_field">
+        <div class="icon">
+          <i class="fas fa-percentage"></i>
+        </div>
+        <input type="number" name="percent" id="percent" value="" placeholder="Enter rate (between 1 and 100)"/>
+      </div>
+      <div class="input_field">
+        <div class="icon">
+          <i class="fas fa-calendar-minus"></i>
+        </div>
+        <select name="month" id="month">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+      </div>
+      <a href="#" id="btn">Calculate</a>
+      <div class="info_field">
+        <span class="info">
+          Interest amount
+        </span>
+        <span class="amount">
+          <input type="text" name="showinterest" id="showinterest" readonly value="" />
+        </span>
+        </div>
+      <div class="info_field">
+        <span class="info">
+          Monthly payment
+        </span>
+        <span class="amount">
+          <input type="text" name="showmonthpay" id="showmonthpay" readonly value="" />
+        </span>
+        </div>
+      <div class="info_field">
+        <span class="info">
+          Total Payment
+        </span>
+        <span class="amount">
+          <input type="text" name="showtotalpayment" id="showtotalpayment" readonly value="" />
+        </span>
+        </div>
+    </div>
+    <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
